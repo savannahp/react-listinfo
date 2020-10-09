@@ -1,0 +1,26 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "bc11e085-6cf4-42e9-a5db-405804716905",
+  "alias": "ListInfoWebPart",
+  "componentType": "WebPart",
+
+  "version": "*",
+  "manifestVersion": 2,
+
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart"],
+
+  "preconfiguredEntries": [
+    {
+      "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+      "group": { "default": "Other" },
+      "title": { "default": "List info" },
+      "description": { "default": "Shows information about the selected list" },
+      "officeFabricIconFontName": "Page",
+      "properties": {
+        "description": "List info",
+        "listName": ""
+      }
+    }
+  ]
+}
